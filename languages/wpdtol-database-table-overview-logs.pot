@@ -1,0 +1,309 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Database Table Overview and Logs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-23 11:14+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.11; wp-6.6.1\n"
+"X-Domain: wpdtol-database-table-overview-logs"
+
+#. %s: upgrade link
+#: wpdtol-database-table-overview-logs.php:258
+#, php-format
+msgid ""
+"%s for automatic daily logging, email reports, print and export. Logs will "
+"be generated automatically every day. An email report can also be sent daily "
+"and you can print or export the table below."
+msgstr ""
+
+#: wpdtol-database-table-overview-logs.php:313
+msgid "(daily and each time this dashboard accessed)"
+msgstr ""
+
+#: wpdtol-database-table-overview-logs.php:315
+msgid "(each time this dashboard accessed)"
+msgstr ""
+
+#. %s: total
+#: wpdtol-database-table-overview-logs.php:380
+#, php-format
+msgid "(filtered from %s)"
+msgstr ""
+
+#: wpdtol-database-table-overview-logs.php:426
+msgid "(MB)"
+msgstr ""
+
+#: wpdtol-database-table-overview-logs.php:189
+#: wpdtol-database-table-overview-logs.php:363
+#: wpdtol-database-table-overview-logs.php:556
+#: wpdtol-database-table-overview-logs.php:722
+msgid "-"
+msgstr ""
+
+#. Author of the plugin
+msgid "99w"
+msgstr ""
+
+#: wpdtol-database-table-overview-logs.php:388
+#: wpdtol-database-table-overview-logs.php:389
+#: wpdtol-database-table-overview-logs.php:453
+msgid ":"
+msgstr ""
+
+#: wpdtol-database-table-overview-logs.php:297
+msgid "> 1 month"
+msgstr ""
+
+#: wpdtol-database-table-overview-logs.php:300
+msgid "> 12 months"
+msgstr ""
+
+#: wpdtol-database-table-overview-logs.php:298
+msgid "> 3 months"
+msgstr ""
+
+#: wpdtol-database-table-overview-logs.php:299
+msgid "> 6 months"
+msgstr ""
+
+#: wpdtol-database-table-overview-logs.php:388
+msgid "activate to sort column ascending"
+msgstr ""
+
+#: wpdtol-database-table-overview-logs.php:389
+msgid "activate to sort column descending"
+msgstr ""
+
+#: wpdtol-database-table-overview-logs.php:296
+msgid "All"
+msgstr ""
+
+#: wpdtol-database-table-overview-logs.php:291
+msgid "Are you sure you want to clear logs?"
+msgstr ""
+
+#: wpdtol-database-table-overview-logs.php:313
+msgid "Automatic"
+msgstr ""
+
+#: wpdtol-database-table-overview-logs.php:303
+msgid "Clear"
+msgstr ""
+
+#: wpdtol-database-table-overview-logs.php:294
+msgid "Clear logs: "
+msgstr ""
+
+#: wpdtol-database-table-overview-logs.php:319
+#: wpdtol-database-table-overview-logs.php:561
+msgid "Database name:"
+msgstr ""
+
+#: wpdtol-database-table-overview-logs.php:321
+msgid "Database rows on this date:"
+msgstr ""
+
+#: wpdtol-database-table-overview-logs.php:569
+msgid "Database rows:"
+msgstr ""
+
+#: wpdtol-database-table-overview-logs.php:320
+msgid "Database size on this date:"
+msgstr ""
+
+#: wpdtol-database-table-overview-logs.php:565
+msgid "Database size:"
+msgstr ""
+
+#: wpdtol-database-table-overview-logs.php:190
+msgid "Database Table Overview & Logs"
+msgstr ""
+
+#. Name of the plugin
+#: wpdtol-database-table-overview-logs.php:189
+#: wpdtol-database-table-overview-logs.php:250
+msgid "Database Table Overview and Logs"
+msgstr ""
+
+#: wpdtol-database-table-overview-logs.php:556
+#: wpdtol-database-table-overview-logs.php:722
+msgid "Database Table Report"
+msgstr ""
+
+#: wpdtol-database-table-overview-logs.php:363
+msgid "Datable Table Overview"
+msgstr ""
+
+#: wpdtol-database-table-overview-logs.php:272
+msgid "Date:"
+msgstr ""
+
+#: wpdtol-database-table-overview-logs.php:214
+msgid "Email report recipient(s) updated."
+msgstr ""
+
+#: wpdtol-database-table-overview-logs.php:280
+msgid "Email report recipient(s):"
+msgstr ""
+
+#: wpdtol-database-table-overview-logs.php:281
+msgid ""
+"Enter comma separated email addresses to receive a daily report. Set to "
+"empty to disable."
+msgstr ""
+
+#: wpdtol-database-table-overview-logs.php:368
+msgid "Export"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://99w.co.uk"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://wordpress.org/plugins/wpdtol-database-table-overview-logs/"
+msgstr ""
+
+#: wpdtol-database-table-overview-logs.php:383
+msgid "Loading..."
+msgstr ""
+
+#: wpdtol-database-table-overview-logs.php:311
+msgid "Logging:"
+msgstr ""
+
+#: wpdtol-database-table-overview-logs.php:310
+msgid "Logs available from:"
+msgstr ""
+
+#: wpdtol-database-table-overview-logs.php:228
+msgid "Logs cleared."
+msgstr ""
+
+#: wpdtol-database-table-overview-logs.php:315
+msgid "Manual"
+msgstr ""
+
+#: wpdtol-database-table-overview-logs.php:524
+#: wpdtol-database-table-overview-logs.php:639
+msgid "MB"
+msgstr ""
+
+#: wpdtol-database-table-overview-logs.php:458
+msgid "Name"
+msgstr ""
+
+#: wpdtol-database-table-overview-logs.php:375
+msgid "No data available"
+msgstr ""
+
+#: wpdtol-database-table-overview-logs.php:503
+msgid "No data available."
+msgstr ""
+
+#: wpdtol-database-table-overview-logs.php:329
+#: wpdtol-database-table-overview-logs.php:334
+msgid "No logs yet"
+msgstr ""
+
+#. %s: refresh link
+#: wpdtol-database-table-overview-logs.php:400
+#, php-format
+msgid ""
+"No logs yet, if you have just cleared logs then %s to update the log for "
+"today."
+msgstr ""
+
+#: wpdtol-database-table-overview-logs.php:386
+msgid "No tables found."
+msgstr ""
+
+#: wpdtol-database-table-overview-logs.php:362
+msgid "Print"
+msgstr ""
+
+#: wpdtol-database-table-overview-logs.php:384
+msgid "Processing..."
+msgstr ""
+
+#: wpdtol-database-table-overview-logs.php:472
+msgid "Random row from table as of today:"
+msgstr ""
+
+#: wpdtol-database-table-overview-logs.php:400
+msgid "refresh the dashboard"
+msgstr ""
+
+#. %s: plugin name
+#: wpdtol-database-table-overview-logs.php:597
+#, php-format
+msgid "Report generated by the %s plugin."
+msgstr ""
+
+#: wpdtol-database-table-overview-logs.php:466
+msgid "Rows"
+msgstr ""
+
+#: wpdtol-database-table-overview-logs.php:385
+msgid "Search:"
+msgstr ""
+
+#: wpdtol-database-table-overview-logs.php:273
+msgid "Set"
+msgstr ""
+
+#. %1$s: start, %2$s: end, %3$s: total
+#: wpdtol-database-table-overview-logs.php:377
+#, php-format
+msgid "Showing %1$s to %2$s of %3$s tables"
+msgstr ""
+
+#: wpdtol-database-table-overview-logs.php:378
+msgid "Showing 0 to 0 of 0 tables"
+msgstr ""
+
+#: wpdtol-database-table-overview-logs.php:309
+msgid "Showing logs for:"
+msgstr ""
+
+#: wpdtol-database-table-overview-logs.php:462
+msgid "Size"
+msgstr ""
+
+#: wpdtol-database-table-overview-logs.php:453
+msgid "Table info as of"
+msgstr ""
+
+#: wpdtol-database-table-overview-logs.php:425
+msgid "Table name"
+msgstr ""
+
+#: wpdtol-database-table-overview-logs.php:427
+msgid "Table rows"
+msgstr ""
+
+#: wpdtol-database-table-overview-logs.php:426
+msgid "Table size"
+msgstr ""
+
+#: wpdtol-database-table-overview-logs.php:286
+msgid "Update"
+msgstr ""
+
+#: wpdtol-database-table-overview-logs.php:258
+msgid "Upgrade to premium"
+msgstr ""
+
+#. Description of the plugin
+msgid "WordPress plugin by 99w."
+msgstr ""

@@ -1,0 +1,125 @@
+// Mixins
+
+@mixin clearfix {
+	&:after {
+		content: "";
+		clear: both;
+		display: table;
+	}
+}
+
+// Dashboard
+
+#wpdtol-database-table-overview-logs {
+	[data-tooltip] {
+		display: inline;
+		position: relative;
+		&:before {
+			border-bottom: 5px solid #1d2327;
+			border-left: 5px solid transparent;
+			border-right: 5px solid transparent;
+			border-top: 0;
+			content: '';
+			display: none;
+			font-size: 0;
+			height: 0;
+			left: 35px;
+			line-height: 0;
+			position: absolute;
+			top: 22px;
+			width: 0;
+			z-index: 1;
+		}
+		&:after {
+			background: #1d2327;
+			border-radius: 5px;
+			color: #ffffff;
+			content: attr( data-tooltip );
+			display: none;
+			font-size: 10px;
+			height: 18px;
+			left: 0px;
+			line-height: 18px;
+			padding: 5px 8px;
+			position: absolute;
+			top: 27px;
+			white-space: nowrap;
+			word-wrap: normal;
+			z-index: 2;
+		}
+		&:hover {
+			&:before,
+			&:after {
+				display: block;
+			}
+		}
+	}
+	.wp-heading-inline {
+		margin-bottom: 5px;
+		+ #wpdtol-database-table-overview-logs-actions {
+			margin-top: 10px;
+		}
+	}
+	.wpdtol-database-table-overview-logs-hidden {
+		display: none;
+	}
+	.wpdtol-database-table-overview-logs-spinner {
+		height: 14px;
+		vertical-align: middle;
+	}
+	#wpdtol-database-table-overview-logs-actions {
+		background-color: #ffffff;
+		border: 1px solid #c3c4c7;
+		margin-bottom: 20px;
+		padding: 15px;
+		@include clearfix;
+		> div {
+			float: left;
+			margin-right: 20px;
+			&:nth-child(2) {
+				input[name="email_recipients"] {
+					width: 300px;
+				}
+			}
+			&:last-child {
+				float: right;
+				margin-right: 0;
+			}
+		}
+	}
+	#wpdtol-database-table-overview-logs-table_wrapper {
+		> .top {
+			margin-bottom: 15px;
+			@include clearfix;
+			> div {
+				&:nth-child(1) {
+					float: left;
+					text-align: left;
+					width: 400px;
+					padding-top: 6px;
+				}
+				&:nth-child(2) {
+					float: right;
+					text-align: right;
+					width: 245px;
+				}
+				&:nth-child(3) {
+					float: right;
+					text-align: right;
+					width: 125px;
+				}
+			}
+		}
+		#wpdtol-database-table-overview-logs-table {
+			tbody {
+				tr {
+					&:hover {
+						td {
+							background-color: #dcdcde;
+						}
+					}
+				}
+			}
+		}
+	}
+}
